@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+	margin: 25px 0;
+	color: #b71c1c;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #b71c1c;
+}
+.active {
+	background-color: #b71c1c !important;
+}
+
